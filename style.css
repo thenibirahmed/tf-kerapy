@@ -325,3 +325,23 @@ img {
     font-size: 1.5rem;
     color: #fff;
   }
+
+
+  .cta_v3 {
+    background-image: linear-gradient(#0052A8D9, #0052A8D9), url('images/hero_v3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+  }
+
+
+  .about_hero_v2 {
+    background-image: linear-gradient(90deg, #0052A8 50%, #ffffff00 ), url('images/about_banner.jpg');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+  }
