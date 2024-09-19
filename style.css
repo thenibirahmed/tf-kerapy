@@ -10,6 +10,11 @@ body {
     color: #0052A8;
 }
 
+.star{
+    width: 24px;
+    height: 24px;
+}
+
 p{
     font-size: 16px !important;
     color:#666666 !important;
@@ -353,6 +358,13 @@ img {
     z-index: 1;
   }
 
+  @media (max-width: 768px) {
+    .about_hero_v2 {
+        background-image: none;
+        background-color: #0052A8;
+    }
+}
+
   .form-control {
     border-radius: 0;
     border: 1px solid #031A06;
@@ -461,10 +473,24 @@ footer .bottom-link {
     background-position: right;
 }
 
+@media (max-width: 768px) {
+    .service-mission {
+        background-image: none;
+        background-color: #0052A8;
+    }
+}
+
 .service-mission-left{
     background-image: linear-gradient(90deg, transparent, white ), url(images/sec.jpg);
     background-repeat: no-repeat;
     background-position: left;
+}
+
+@media (max-width: 768px) {
+    .service-mission-left {
+        background-image: none;
+        background-color: #0052A8;
+    }
 }
 
 
@@ -480,3 +506,4 @@ footer .bottom-link {
     color: #000000 !important;
     font-weight: 400 !important;
   }
+
