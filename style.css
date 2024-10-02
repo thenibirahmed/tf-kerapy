@@ -142,6 +142,7 @@ p {
     border-radius: 50px;
     padding: 16px 32px;
 }
+
 @media screen and (max-width: 480px) {
     .btn-outline-dark{
         border-radius: 50px;
@@ -158,6 +159,12 @@ p {
     text-decoration: none; 
     display: inline-block; 
     transition: 0.5s;
+    font-family: Onest;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27.2px;
+    letter-spacing: 0.04em;
+
 }
 
 @media screen and (max-width: 480px) {
@@ -225,18 +232,6 @@ img {
     background-color: #0052A8;
 }
 
-.full-button{
-    width: 100%;
-    border-radius: 0px;
-    padding: 16px 32px;
-    background-color: #00DCC2;
-    color: #000000;
-    text-align: left;
-    text-decoration: none; 
-    display: inline-block; 
-    transition: 0.5s;
-}
-
 .hero-v4-last{
     background-color: #0052A8;
 }
@@ -293,7 +288,7 @@ img {
 
 
   @media (max-width: 768px) {
-    .container {
+    .container py-md-4 {
       display: block; 
     }
     .box {
@@ -432,7 +427,8 @@ footer .social-icon {
 }
 
 footer .social-icon:hover {
-    color: #00DCC2 !important;
+    background-color: #00DCC2 !important;
+    color: #fff !important;
 }
 
 
@@ -527,4 +523,40 @@ footer .bottom-link {
 
 .blue-bg {
     background-color: #0052A8;
+}
+
+.full-screen-button {
+    width: calc(100vw - 30px);
+    position: absolute;
+    left: 50%;
+    transform: translateX(0%);
+    bottom: 0px;
+    border-radius: 0px;
+    padding: 16px 32px;
+    background-color: #00DCC2;
+    color: #000000;
+    text-align: left;
+    text-decoration: none; 
+    display: inline-block; 
+    transition: 0.5s;
+    font-family: Onest;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27.2px;
+    letter-spacing: 0.04em;
+}
+
+.full-screen-button:hover {
+    background-color: #00aa9c; 
+    text-decoration: none;
+     
+}
+
+@media screen and (max-width: 480px) {
+    .full-screen-button{
+        position: relative;
+        width: calc(100vw - 30px);
+        left: 0%;
+        transform: translateX(0%);
+    }
 }
