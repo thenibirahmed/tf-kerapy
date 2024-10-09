@@ -609,8 +609,8 @@ footer .bottom-link {
 
 .testimonial-box .owl-nav {
     position: relative;
-    text-align: right;
-    margin-top: -70px;
+    text-align: center;
+    margin-top: 3em;
     z-index: 500 !important;
 }
 
